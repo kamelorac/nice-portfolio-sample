@@ -1,0 +1,53 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.12.13",
+        "axios": "^0.21",
+        "eslint": "^7.22.0",
+        "eslint-plugin-react": "^7.23.1",
+        "eslint-webpack-plugin": "^2.5.3",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "dependencies": {
+        "@ant-design/charts": "^1.1.2",
+        "@ant-design/pro-layout": "^6.15.4",
+        "@ant-design/pro-table": "^2.31.0",
+        "@loadable/component": "^5.14.1",
+        "antd": "^4.15.0",
+        "filepond": "^4.26.0",
+        "filepond-plugin-file-encode": "^2.1.10",
+        "filepond-plugin-file-validate-size": "^2.2.4",
+        "filepond-plugin-file-validate-type": "^1.2.6",
+        "filepond-plugin-image-preview": "^4.6.6",
+        "less": "^4.1.1",
+        "less-loader": "^8.0.0",
+        "mini-dynamic-antd-theme": "^0.5.3",
+        "nprogress": "^0.2.0",
+        "rc-queue-anim": "^1.8.5",
+        "react-color": "^2.19.3",
+        "react-countup": "^4.3.3",
+        "react-filepond": "^7.1.1",
+        "react-icons": "^4.2.0",
+        "react-redux": "^7.2.3",
+        "react-router-dom": "^5.2.0",
+        "reddit-image-fetcher": "^2.0.7",
+        "redux": "^4.0.5",
+        "redux-thunk": "^2.3.0",
+        "styled-components": "^5.2.1",
+        "typed.js": "^2.0.12"
+    }
+}
